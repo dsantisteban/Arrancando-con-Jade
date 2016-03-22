@@ -1,8 +1,43 @@
 <!DOCTYPE html>
 html(lang="en")
-head
-	meta(charset="UTF-8")
-	title Document
-body
-	h1 hola mundo
-	
+	head
+		meta(charset="UTF-8")
+		title Arrancando con Jade
+		link(rel="stylesheet" href="css/main.css")
+		link(href='https://fonts.googleapis.com/css?family=Raleway:400,300,200italic,700,800,900,500' rel='stylesheet' type='text/css')
+		link(rel="stylesheet" href="css/font-awesome.min.css")
+	body
+		header
+			nav.navbar(role="navigation")
+				.navbar-header
+					button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse")
+						span.sr-only Desplegar navegación
+						span.fa.fa-bars
+					a.navbar-brand(href="#") 
+						h1 FUTURE IMPERFECT
+				.collapse.navbar-collapse.navbar-ex1-collapse
+					ul.nav.navbar-nav
+						li
+							a(href="")
+								h6 HOME
+						li
+							a(href="")
+								h6 ABOUT US
+						li
+							a(href="")
+								h6 SERVICES
+						li
+							a(href="")
+								h6 GALLERIES
+						li
+							a(href="")
+								h6 CONTACT
+					ul.nav.navbar-nav.navbar-right.hidden-xs
+						li 
+							a(href="")
+								i.fa.fa-search
+		script(src="js/jquery.js")
+		script(src="js/bootstrap.min.js")
+
+
+		

@@ -1,4 +1,36 @@
 @import "plugins/_bootstrap";
-.hola{
-	color:red;
+/*Mi sass*/
+$gray-dark:#3c3b3b;
+$gray-light:#E3E3E3;
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2.1;
+    font-family: 'Raleway', sans-serif;
+	color:$gray-dark;
+	margin:0;
+	letter-spacing: 3px;
 }
+h6{
+	font-size:11px;
+}
+h1{
+	font-weight:900;
+	letter-spacing:4px;
+}
+.pd-0{
+	padding:0;
+}
+header {
+	border-bottom:1px solid $gray-light;
+	h1{
+		letter-spacing: 5px;
+		font-size: 12px;
+		margin:0;
+	}
+	.navbar{
+		margin-bottom: 0;
+		.navbar-right li a{
+			padding:0px 20px;
+		}
+	}
+}
+
