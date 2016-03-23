@@ -5811,31 +5811,140 @@ button.close {
     display: none !important; } }
 /*Mi sass*/
 h1, h2, h3, h4, h5, h6 {
-  line-height: 2.1;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #3c3b3b;
   margin: 0;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  text-transform: uppercase; }
 
 h6 {
   font-size: 11px; }
 
 h1 {
-  font-weight: 900;
   letter-spacing: 4px; }
 
 .pd-0 {
   padding: 0; }
 
 header {
-  border-bottom: 1px solid #E3E3E3; }
+  border-bottom: 1px solid #E8E8E8; }
   header h1 {
     letter-spacing: 5px;
     font-size: 12px;
-    margin: 0; }
+    margin: 0;
+    font-weight: 900; }
   header .navbar {
     margin-bottom: 0; }
     header .navbar .navbar-right li a {
-      padding: 0px 20px; }
+      padding: 15px 20px;
+      border-left: 1px solid #E8E8E8;
+      color: #F4F4F4;
+      font-size: 15px; }
+  header a.navbar-brand {
+    padding: 19px 15px;
+    border-right: 1px solid #E8E8E8; }
+  header ul.navbar-nav {
+    padding: 19px 0px; }
+    header ul.navbar-nav li {
+      border-right: 1px solid #E8E8E8; }
+      @media screen and (max-width: 767px) {
+        header ul.navbar-nav li {
+          text-align: center; } }
+      header ul.navbar-nav li a {
+        padding: 0px 15px; }
+        @media screen and (max-width: 767px) {
+          header ul.navbar-nav li a {
+            padding: 15px 15px;
+            text-align: text-center; } }
+    header ul.navbar-nav li:last-child {
+      border: 0; }
+
+.future {
+  padding-top: 30px;
+  background-color: #F4F4F4; }
+  .future .logo {
+    width: 69px;
+    height: 100px;
+    overflow: hidden;
+    transform: rotate(120deg);
+    margin: 0 auto; }
+    .future .logo .hex1 {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transform: rotate(-60deg); }
+      .future .logo .hex1 .hex2 {
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+        transform: rotate(-60deg);
+        background: url(../../images/logo.jpg) no-repeat;
+        background-position: 50%; }
+  .future .one h2, .future .centro h2 {
+    font-weight: 700;
+    letter-spacing: 10.5px;
+    margin-top: 30px; }
+  .future .one h3, .future .centro h3 {
+    font-weight: 700;
+    letter-spacing: 6.8px; }
+  .future .one h6, .future .centro h6 {
+    margin: 30px 0; }
+    .future .one h6 a, .future .centro h6 a {
+      border-bottom: 1px dotted #3c3b3b;
+      color: #3c3b3b; }
+  .future .container {
+    background-color: white;
+    border-top: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8; }
+    .future .container .row {
+      border-bottom: 1px solid #E8E8E8; }
+    .future .container .col-md-9, .future .container .col-md-3 {
+      padding: 50px 40px; }
+    .future .container .col-md-9 h6, .future .container .col-md-3 h6:nth-child(2) {
+      margin-top: 20px;
+      margin-bottom: 0px; }
+    .future .container .col-md-3 {
+      border-left: 1px solid #E8E8E8; }
+      .future .container .col-md-3 h6:first-child {
+        font-weight: 900;
+        margin: 0px; }
+      .future .container .col-md-3 h6:nth-child(2) {
+        display: inline-block;
+        margin-right: 10px;
+        border-bottom: 1px dotted #3c3b3b; }
+      .future .container .col-md-3 img {
+        border-radius: 50px; }
+    .future .container .col-md-12 {
+      padding: 40px; }
+      .future .container .col-md-12 img {
+        width: 100%; }
+      .future .container .col-md-12 p {
+        margin: 45px 0px 20px; }
+    .future .container .col-md-6 h6 i {
+      color: #E8E8E8; }
+    @media screen and (max-width: 767px) {
+      .future .container .col-md-6 .general {
+        text-align: center; } }
+    .future .container .col-md-6 .general li {
+      border-right: 1px solid #E8E8E8; }
+    .future .container .col-md-6 .general li:last-child {
+      border: 0; }
+  .future .botones a:first-child {
+    color: #DBDBDB; }
+  .future .botones a {
+    margin: 50px 20px 100px; }
+
+.boton {
+  border: 1px solid #E8E8E8;
+  padding: 20px;
+  width: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  color: #3c3b3b;
+  letter-spacing: 3px;
+  font-weight: 900;
+  display: inline-block;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
